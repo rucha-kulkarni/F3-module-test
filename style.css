@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+main{
+    background-color: black;
+    padding: 5px;
+}
+main > h1{
+    padding: 0 10px ;
+}
+#search-form {
+    margin-top: 20px;
+    color: black;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="date"] {
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 7px 10px;
+    background-color: #333;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #555;
+}
+#current-image-container {
+    margin-top: 20px;
+    color: white;
+    padding: 10px ;
+}
+
+#current-image-container > img {
+    width: 100%;
+    height: auto;
+}
+
+#search-history {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 90%;
+}
+
+#search-history li {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    color: black;
+    cursor: pointer;
+}
+
+#search-history li:hover {
+    background-color: #eee;
+}
